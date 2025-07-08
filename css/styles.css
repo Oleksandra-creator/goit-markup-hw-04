@@ -345,6 +345,7 @@ p {
     height: 40px;
     width: 40px;
     gap: 24px;
+    background-color: #fff;
 }
 
 .team-social-link {
@@ -467,7 +468,7 @@ svg {
     cursor: pointer;
 }
 
-.portfolio-item-shut:hover .overlay {
+.section-portfolio-list-item:hover .overlay {
     transform: translateY(0); }
 
 /*<!--end of 4 section-portfolio-->*/
@@ -483,6 +484,7 @@ svg {
 }
 
 .footer-container {
+    width: 100%;
     display: flex;
     align-items: baseline;
     flex-direction: row; }
